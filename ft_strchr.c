@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strchr.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: vicarauj <vicarauj@student.42.fr>          +#+  +:+       +#+        */
+/*   By: sotto <sotto@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/06 17:19:34 by vicarauj          #+#    #+#             */
-/*   Updated: 2026/11/09 11:35:54 by vicarauj         ###   ########.fr       */
+/*   Updated: 2026/11/11 17:17:55 by sotto            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,11 +28,11 @@ char	*ft_strchr(const char *s, int c)
 		return (NULL);
 }
 
-/*int main(void)
+int main(void)
 {
 	char	a[] = "ola";
 
 	printf("Teste: %s", ft_strchr(a, 'l'));
 
 	return (0);
-}*/
+}
