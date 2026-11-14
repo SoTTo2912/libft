@@ -6,13 +6,13 @@
 /*   By: vicarauj <vicarauj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/09 13:19:18 by vicarauj          #+#    #+#             */
-/*   Updated: 2026/11/09 13:49:20 by vicarauj         ###   ########.fr       */
+/*   Updated: 2026/11/12 15:33:06 by vicarauj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int	memcmp(const void *s1, const void *s2, size_t n)
+int	ft_memcmp(const void *s1, const void *s2, size_t n)
 {
 	const char	*str1;
 	const char	*str2;

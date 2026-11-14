@@ -6,12 +6,11 @@
 /*   By: vicarauj <vicarauj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/05 17:16:18 by vicarauj          #+#    #+#             */
-/*   Updated: 2026/11/10 14:49:08 by vicarauj         ###   ########.fr       */
+/*   Updated: 2026/11/12 10:29:33 by vicarauj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-
 
 size_t	ft_strlcpy(char *dst, const char *src, size_t s)
 {

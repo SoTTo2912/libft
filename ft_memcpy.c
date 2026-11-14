@@ -6,7 +6,7 @@
 /*   By: vicarauj <vicarauj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 15:47:54 by vicarauj          #+#    #+#             */
-/*   Updated: 2026/11/10 13:33:41 by vicarauj         ###   ########.fr       */
+/*   Updated: 2026/11/12 10:29:12 by vicarauj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,4 +26,3 @@ void	*ft_memcpy(void *dest, const void *src, size_t n)
 	}
 	return (dest);
 }
-

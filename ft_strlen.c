@@ -6,7 +6,7 @@
 /*   By: vicarauj <vicarauj@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/11/03 13:42:54 by vicarauj          #+#    #+#             */
-/*   Updated: 2026/11/10 13:29:12 by vicarauj         ###   ########.fr       */
+/*   Updated: 2026/11/13 14:02:13 by vicarauj         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,14 +15,11 @@
 size_t	ft_strlen(const char *s)
 {
 	size_t	i;
-	size_t	j;
 
 	i = 0;
-	j = 0;
 	while (s[i])
 	{
 		i++;
-		j++;
 	}
-	return (j);
+	return (i);
 }
